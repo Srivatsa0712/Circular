@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bar{
+    /* background-color: #00bff3; */
+    background-color: #cfc7c777;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bar ul{
+    margin-left: 7%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    list-style-type:none;
+    height: 70px;
+}
+
+.bar ul li{
+    padding: 0 15px;
+    cursor: pointer;
+    font-family: 'Varela Round',sans-serif;
+}
+
+.bar ul li:hover{
+    text-decoration: underline;
+}
+
+.cse{
+    font-family: 'Moon Dance', cursive;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.bar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.barbr{
+    border-bottom: solid 2px black;
+}
