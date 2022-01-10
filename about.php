@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="bar">
-        <a href="index.html"><h1 class="cse">Department of Computer Science and Engineering</h1></a>
+        <a href="index.html"><h1 class="cse">CSE Department</h1></a>
         <ul>
             <li>Introduction</li>
             <li>Vision and Mission</li>

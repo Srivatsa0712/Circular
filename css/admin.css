@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bar{
+    /* border: red 2px solid; */
+    background-color: #DD4A48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    /* gap: 850px; */
+}
+
+.cse{
+    font-family: 'Moon Dance', cursive;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+/* header */
+#log-out{
+    font-size: 20px; 
+}
+
+#log-out a{
+    text-decoration: none;
+    padding: 0px 30px 0px 0px;
+}
+
+#log-out a:link{
+    color: rgba(0,0,0,0.5);
+}
+
+#log-out a:hover{
+    color: rgba(0,0,0,1);
+}
+
+main{
+    border:2px red dashed;
+
+    height: 500px;
+    margin: 100px;
+
+
+    /* width: 550px; */
+}
+
+form{
+    border:2px red solid;
+    height: 300px;
+    margin: 100px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+#file-box{
+    /* border:2px red solid; */
+
+    padding: 40px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 18px;
+}
+
+#upload-box{
+    /* border:2px red solid; */
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 18px;
+    border-color: rgba(0,0,0,0.2);
+}
+
+#upload-box:hover{
+
+    border-color: rgba(0,0,0,1);
+    cursor: pointer;
+}
+
