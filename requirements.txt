@@ -1,5 +1,6 @@
 1. Time table
 2. Circular
 3. Mentor list
-4. Achievments
+4. Achievments(About)
 5. Placements
+6. Faculty Photo With Name(About)
